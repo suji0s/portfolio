@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Personal Portfolio Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <h3>Sujith</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Full Stack Developer</p>
+          <h1>Hi,I'm <span>Sujith</span> <br />From kochi</h1>
+        </div>
+      </div>
+    </div>
+    <!--------about------ -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="images/2D8A6456-1.jpg" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Devoloper with a comprehensive skill set incorporating
+              HTML,CSS,JavaScript.Proficient in end-toend application
+              development from database design to user interface
+              implementation.Seeking a challeging role where i can leverage my
+              expertise in these technologies to contribute to the success of
+              innovative projects.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Educations</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>Mern</span><br />Designing Web/App interfaces</li>
+                <li>
+                  <span>Web Development</span><br />HtMl,Css,Js,React,Node js,Express,MongoDb
+                </li>
+                
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>2025-Current</span><br />Designing Web/App interfaces
+                </li>
+                <li>
+                  <span>2019-2021</span><br /> Revolute pvt ltd
+
+                </li>
+                <li>
+                  <span>2017-2019</span><br />ela sustainable solution pvt ltd
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li><span></span><br />Btech(electronic and communications)</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- --------services------ -->
+    <div id="services">
+      <div class="container">
+        <h2 class="sub-title">My Services</h2>
+        <div class="services-list">
+          <div>
+            <h2>Web Design</h2>
+            <p>
+           I specialize in building responsive, scalable, and dynamic web applications. Leveraging my expertise in MongoDB, Express.js, React, and Node.js, I deliver end-to-end solutions that are both functional and user-friendly
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <h2>Frontend</h2>
+            <p>
+           Developer with a strong foundation in HTML, CSS, and JavaScript. I specialize in building and delivering interactive, user-centric web experiences with a focus on modern, component-based architecture using React
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+          <div>
+            <h2>Backend</h2>
+            <p>
+           Creating scalable and efficient server-side applications using Node.js, Express, and MongoDB. My expertise includes building secure RESTful APIs, optimizing database performance, and implementing robust authentication and authorization mechanisms.
+            </p>
+            <a href="#">Learn More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ---------portfolio-------- -->
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/about.jpg" />
+            <div class="layer">
+              <h3>Doctors Booking App</h3>
+              <p>The App is Used to book Doctors Appointments</p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/library.png" />
+            <div class="layer">
+              <h3>Doctors Booking App</h3>
+              <p>The App is Used to book Doctors Appointments</p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/cafeteria.png" />
+            <div class="layer">
+              <h3>Doctors Booking App</h3>
+              <p>The App is Used to book Doctors Appointments</p>
+              <a href="#"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+
+    <!-- .......contact...... -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact me</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>sss.sujith@gmail.com</p>
+            <p><i class="fa-solid fa-phone"></i>9447940055</p>
+            <div class="social-icons">
+              <a href="http://facebook.com/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a href="" class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+            <form>
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                row="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
